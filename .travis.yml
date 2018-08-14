@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: lIDmRd15pa6nmNNfJ0w/lnBOHkjarjnG9v3p3tvAiGl+6LN2xi5Ies+fbGcoM1maHcKyk5GugaT7ExwXz293RgIaXxvotJn4hy8jYNb2tCs9LeJ0LgRJsQHe5zcS+0vqZ1QR71XXAEcqlxJJKsGewQmHF7w+QKLIfCD7M/noPnbDTAOq0xk31P/YPLEgPOeUZZrVgl8XCPvdP5us1tgJ4BjyK18+eKlqI1iLGstI7vzNXxAizD1mcMIRx1U4xzkexzyYXxNZAC7/QIKnmGvwOzl5/jZvxxpS/IdHcRRqBEbfOgF+CcL+eaa9LrD8QmEtZ3bxx87BqmIvbLk98LcrnpdCAg3oRyVZTW1yYf5T61Zbg3+ldH7rYrqSWEc2hZG1JVnlPD1gIwfOGjRTGpdVG2XG+J6rrxe5PQx+ILvum3daOBIgqQfk35dlA/X+3tpU5JfHjP0Sjzf3Jhkk7ySbvTuxwCeDf7swbvrYBazT/BCG6lOYEOSkQLAEGErbJXwi2lHb1vgU+JcbKD3c54PRXcYW7jS25+i38RXeT1iv6XMSe8EuVCHat+Eayjar+RQf3JHp009dR13p/wsxjOQG+vZH8RMwtUVMs6d+L0QNRq9P0EId7xhdApxLxgNo0l/sLLhnOKZ4dA7rVIzEr2BOw/hk59TMsj284V9WxXhXhMs=
+  app: frozen-scrubland-99135
+  on:
+    repo: CraigPounds/node-shopping-list-integration-tests
