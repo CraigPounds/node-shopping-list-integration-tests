@@ -2,7 +2,8 @@ language: node_js
 node_js: node
 deploy:
   provider: heroku
-  api_key: ''
+  api_key:
+    secure: EqMFgBajPQG31KB42i11IlwBRwR6mgfumeyhfzkRDRwv+DjVt/Iu3iU1SUfu9g0Of3bOed2SdmwCL6CsfrxI7UKHnaLvIfcyE3HqeC38P+YYMWsALmUMDUkHj4hMq4u0zjEn/bFvo7dQK4r4iUm0of2MXgGxn836oUrODRYQW8M3TaZfoWf2YhEwORwAI2W/R36whD/psc5Mqzf5BkZ+O3ZUDta+qYyP9JLsYLOdrUgERq2e5q7vfY47KvutoU/tSHTYZuOtLnZB6nXfbiqY85bxJFCeaU/ERv4rTsF5hqto3YK76x5CQT0wgXrZYp6fykQxQ3/olOC2Z6/P3n0YF37pq6HSLub4XEi7SjS5AYF09zzxXegPxtmM9ffSQZUa8OBzDXB2KX5y98gaDBZjqYifwj92bG3EDP2dibkQDYZtomeFIJAhsGPADPbcwhRSmdjMvgModV1mhDao8UPOXwBl56W6FcyCiZro8w45NZa9ygkCfbL0Yc0Oz1DN7MiuVYQHfB6E5YnWMlrD43/D2/FuNlSA8Dokra4MOjysocPYwbx2CXrtWsvatVORIFk9hV5UneCnJUvF3Affvk+Y6HNrU2Tgf45+leYfz5iq1PqylnqxFdNIk/aq9Exh2IO5A64hJOvg6xiP4goi+/6v1K9zskYJDhdztSC6G/T+ZX8=
   app: calm-reef-62318
   on:
     repo: CraigPounds/node-shopping-list-integration-tests
